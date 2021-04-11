@@ -116,6 +116,12 @@ html, body {
     width: 95%;
 }
 
+/* The Mobile Nav section starts from here. */
+.mobi {
+    display: none;
+}
+/* The Mobile nav section ends here. */
+
 .middle {
     background-color: #cbf3f052;
     width: 41%;
@@ -335,12 +341,67 @@ html, body {
     display: none;
 }
 
+/* The Mobile Nav section starts from here. */
+/* The Mobile Nav section starts from here. */
+.mobi {
+    width: 95% !important;
+    margin-left: 8px;
+    border-radius: 5px;
+    display: block;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ami ul li {
+    width: 50%;
+    margin-left: 2px;
+    line-height: 20px;
+    font-family: Arial;
+    font-weight: 900;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.5);
+    margin-bottom: 5px;
+    padding-left: 20px;
+    border-radius: 4px;
+}
+
+.ami ul li:nth-child(1) {
+    background-color: #2ec4b6 !important;
+}
+
+.ami ul li:nth-child(1) a {
+    background-color: #2ec4b6 !important;
+    color: #cbf3f0 !important;
+}
+
+.ami ul li a {
+    color: #2ec4b6 !important;
+}
+
+.ami ul li:hover {
+    background-color: #2ec4b6 !important;
+    width: 51%;
+    transition: background-color 1s;
+    transition-timing-function: ease-out;
+}
+
+.ami ul li:hover a {
+    color: #cbf3f0 !important;
+    transition: color 1s;
+    transition-timing-function: ease-out;
+}
+
+
+/* The Mobile nav section ends here. */
+
 .middle {
     width: 95%;
     float: none;
     margin-right: 0px;
     margin-left: 8px;
-    margin-top: 5px;
+    margin-top: 65px;
     padding-top: 5px;
 }
 
